@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+/* Background color determines the color for the majority of the page specifically everything in the body block */
 body {
     background-color: #d9dcd6;
 }
@@ -50,6 +51,7 @@ p {
     font-size: 16px;
 }
 
+/* The hero class didn't really have anything within its section brackets */
 .hero {
     height: 800px;
     width: 100%;
@@ -69,12 +71,19 @@ p {
     margin-left: 25px;
 }
 
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* This is determining the sizing and font of the <aside> part of the webpage */
 .benefits {
     margin-right: 20px;
     padding: 20px;
